@@ -5,15 +5,18 @@ RNNs: sequential or time series data (natural order or time-dependency)
 - language translation
 - speech recognition
 - image captioning
+
 Transformers
 - real-time
 - fine-tuning: output layer만 튜닝
 - uses self-attention mechanism to focus on the most important parts of the information
+
 GANs
 - generator, discriminator로 이루어짐
 - generator는 가짜 샘플을 생성하여 판별자에게 보내고, 판별자는 이를 실제 샘플과 비교하여 샘플이 진짜일 가능성을 점수로 매김
 - 이러한 경쟁 과정을 통해 결과 개선
 - 이미지 및 비디오 생성에 효과적
+
 VAEs
 - 인코더: 입력 데이터를 추상 공간에 압축
 - 디코더: 압축된 정보를 이용해 재생성
